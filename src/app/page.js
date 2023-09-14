@@ -70,9 +70,9 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10 ">
             <div className=" text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1  space-y-5">
-             <Image className="mx-auto" src={sql} width={100} height={100} />   
-             <Image  className="mx-auto" src={javascript} width={100} height={100} />  
-             <Image className="mx-auto"src={react} width={100} height={100} />
+             <Image className="mx-auto" src={sql} width={100} height={100} alt="logo sql" />   
+             <Image  className="mx-auto" src={javascript} width={100} height={100} alt="logo javascript" />  
+             <Image className="mx-auto"src={react} width={100} height={100} alt="logo react" />
             </div>
           </div>
 
@@ -80,9 +80,9 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1 space-y-5 ">
              <div className="className=mx-auto">
               
-             <Image  className="mx-auto" src={c} width={100} height={100} />   
-             <Image className="mx-auto" src={java} width={100} height={100} />  
-             <Image className="mx-auto" src={tailwind} width={100} height={100} />
+             <Image  className="mx-auto" src={c} width={100} height={100} alt="logo c#" />   
+             <Image className="mx-auto" src={java} width={100} height={100} alt="logo de java"/>  
+             <Image className="mx-auto" src={tailwind} width={100} height={100} alt="logo de tailwind"/>
              </div>
             </div>
             </div>
