@@ -1,8 +1,12 @@
-/** @type {import('next').NextConfig} */
-// next.config.js
-module.exports = {
-    output: {
-      // Otras configuraciones aquí si es necesario
+/**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {
+    output: 'export',
+    distDir: 'dist',
+    images:{
+        unoptimized:true
     },
-  };
-  
+  }
+   
+  module.exports = nextConfig
