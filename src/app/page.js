@@ -5,15 +5,15 @@ import React, { useState } from 'react';
 import {BsLightbulbFill } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import Image from 'next/image';
-import foto from '../Images/foto1.png';
-import javascript from '../Images/javascript.png';
-import tailwind from '../Images/tailwind.png';
-import sql from '../Images/sql.png';
-import react from "../Images/react.png";
-import java from '../Images/java.png';
-import c from '../Images/c.png';
-import paginaWeb from '../Images/paginaWeb.png';
-import weather from '../Images/weather.png';
+import foto from './Images/foto1.png';
+import javascript from './Images/javascript.png';
+import tailwind from './Images/tailwind.png';
+import sql from './Images/sql.png';
+import react from "./Images/react.png";
+import java from './Images/java.png';
+import c from './Images/c.png';
+import paginaWeb from './Images/paginaWeb.png';
+import weather from './Images/weather.png';
 import Contact from './contact.js'
 
 
